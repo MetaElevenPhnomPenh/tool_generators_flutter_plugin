@@ -119,10 +119,11 @@ class JsonGenerator extends GeneratorForAnnotation<JsonAnnotation> {
     // Remove leading underscore if present
     if (result.startsWith('_')) {
       result = result.substring(1);
-    }*/
+    }
     if(input == 'id'){
       return '_id';
     }
+    */
     return input;
   }
 
